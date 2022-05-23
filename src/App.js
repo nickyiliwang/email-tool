@@ -1,10 +1,13 @@
-import "./App.css";
-
-import {} from "cheerio";
+import Editor from "./Components/Editor";
+import UrlToTitle from "./Components/UrlToTitle";
 
 function App() {
-  console.log(Cheerio);
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Editor />
+      <UrlToTitle />
+    </div>
+  );
 }
 
 export default App;
